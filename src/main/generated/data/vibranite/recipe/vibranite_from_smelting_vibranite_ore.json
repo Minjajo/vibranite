@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 150,
+  "experience": 0.25,
+  "group": "vibranite",
+  "ingredient": "vibranite:vibranite_ore",
+  "result": {
+    "id": "vibranite:vibranite"
+  }
+}

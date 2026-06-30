@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "experience": 0.5,
+  "group": "vibranite",
+  "ingredient": "vibranite:vibranite_deepslate_ore",
+  "result": {
+    "id": "vibranite:vibranite"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "vibranite:raw_vibranite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "vibranite:raw_vibranite"
+  }
+}
