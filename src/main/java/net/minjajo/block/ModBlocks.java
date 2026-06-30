@@ -17,6 +17,23 @@ import java.util.function.Function;
 public class ModBlocks {
 
 
+    public static final Block VIBRANITE_BLOCK = registerBlock("vibranite_block",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final Block RAW_VIBRANITE_BLOCK = registerBlock("raw_vibranite_block",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final Block VIBRANITE_ORE = registerBlock("vibranite_ore",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final Block VIBRANITE_DEEPSLATE_ORE = registerBlock("vibranite_deepslate_ore",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops()));
+
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function){
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Vibranite.MOD_ID, name))));
         registerBlockItem(name, toRegister);

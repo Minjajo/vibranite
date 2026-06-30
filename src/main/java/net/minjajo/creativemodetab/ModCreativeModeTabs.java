@@ -9,6 +9,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minjajo.Vibranite;
+import net.minjajo.block.ModBlocks;
 import net.minjajo.item.ModItems;
 
 public class ModCreativeModeTabs {
@@ -16,11 +17,15 @@ public class ModCreativeModeTabs {
     public static final CreativeModeTab VIBRANITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(Vibranite.MOD_ID, "vibranite_items"),
             FabricCreativeModeTab.builder()
-                    .icon(() -> new ItemStack(Items.DIAMOND))
+                    .icon(() -> new ItemStack(ModItems.VIBRANITE))
                     .title(Component.translatable("creativemodetab.vibranite.vibranite_items"))
                     .displayItems(((parameters, output) -> {
                         output.accept(ModItems.RAW_VIBRANITE);
                         output.accept(ModItems.VIBRANITE);
+                        output.accept(ModBlocks.VIBRANITE_BLOCK);
+                        output.accept(ModBlocks.RAW_VIBRANITE_BLOCK);
+                        output.accept(ModBlocks.VIBRANITE_ORE);
+                        output.accept(ModBlocks.VIBRANITE_DEEPSLATE_ORE);
                     }))
                     .build());
 

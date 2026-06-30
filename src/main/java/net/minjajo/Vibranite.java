@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
 
+import net.minjajo.block.ModBlocks;
 import net.minjajo.creativemodetab.ModCreativeModeTabs;
 import net.minjajo.item.ModItems;
 import org.slf4j.Logger;
@@ -26,6 +27,7 @@ public class Vibranite implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

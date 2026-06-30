@@ -6,6 +6,7 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplate;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minjajo.block.ModBlocks;
 import net.minjajo.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -15,6 +16,10 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
+        blockModelGenerators.createTrivialCube(ModBlocks.VIBRANITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_VIBRANITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.VIBRANITE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.VIBRANITE_DEEPSLATE_ORE);
 
     }
 

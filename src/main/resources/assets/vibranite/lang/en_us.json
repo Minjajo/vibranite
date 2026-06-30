@@ -2,6 +2,11 @@
   "item.vibranite.vibranite": "Vibranite",
   "item.vibranite.raw_vibranite": "Raw Vibranite",
 
+  "block.vibranite.vibranite_block": "Block of Vibranite",
+  "block.vibranite.raw_vibranite_block": "Block of Raw Vibranite",
+  "block.vibranite.vibranite_ore": "Vibranite Ore",
+  "block.vibranite.vibranite_deepslate_ore": "Vibranite Deepslate Ore",
+
   "creativemodetab.vibranite.vibranite_items": "Vibranite Items"
 
 }
