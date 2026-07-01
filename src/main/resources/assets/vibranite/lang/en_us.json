@@ -2,6 +2,14 @@
   "item.vibranite.vibranite": "Vibranite",
   "item.vibranite.raw_vibranite": "Raw Vibranite",
 
+  "item.vibranite.vibranite_sword": "Vibranite Sword",
+  "item.vibranite.vibranite_axe": "Vibranite Axe",
+  "item.vibranite.vibranite_pickaxe": "Vibranite Pickaxe",
+  "item.vibranite.vibranite_shovel": "Vibranite Shovel",
+  "item.vibranite.vibranite_hoe": "Vibranite Hoe",
+  "item.vibranite.vibranite_spear": "Vibranite Spear",
+
+
   "block.vibranite.vibranite_block": "Block of Vibranite",
   "block.vibranite.raw_vibranite_block": "Block of Raw Vibranite",
   "block.vibranite.vibranite_ore": "Vibranite Ore",

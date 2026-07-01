@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.level.ItemLike;
 import net.minjajo.block.ModBlocks;
@@ -33,6 +34,68 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 nineBlockStorageRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.VIBRANITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIBRANITE_BLOCK);
 
                 nineBlockStorageRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_VIBRANITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_VIBRANITE_BLOCK);
+
+
+
+                shaped(RecipeCategory.COMBAT, ModItems.VIBRANITE_SWORD)
+                        .pattern("A")
+                        .pattern("A")
+                        .pattern("B")
+                        .define('A', ModItems.VIBRANITE)
+                        .define( 'B', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.VIBRANITE), has(ModItems.VIBRANITE))
+                        .group("vibranite")
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VIBRANITE_PICKAXE)
+                        .pattern("AAA")
+                        .pattern(" B ")
+                        .pattern(" B ")
+                        .define('A', ModItems.VIBRANITE)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.VIBRANITE), has(ModItems.VIBRANITE))
+                        .group("vibranite")
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VIBRANITE_SHOVEL)
+                        .pattern("A")
+                        .pattern("B")
+                        .pattern("B")
+                        .define('A', ModItems.VIBRANITE)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.VIBRANITE), has(ModItems.VIBRANITE))
+                        .group("vibranite")
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VIBRANITE_AXE)
+                        .pattern("AA")
+                        .pattern("AB")
+                        .pattern(" B")
+                        .define('A', ModItems.VIBRANITE)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.VIBRANITE), has(ModItems.VIBRANITE))
+                        .group("vibranite")
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VIBRANITE_HOE)
+                        .pattern("AA")
+                        .pattern(" B")
+                        .pattern(" B")
+                        .define('A', ModItems.VIBRANITE)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.VIBRANITE), has(ModItems.VIBRANITE))
+                        .group("vibranite")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.VIBRANITE_SPEAR)
+                        .pattern("  A")
+                        .pattern(" B ")
+                        .pattern("B  ")
+                        .define('A', ModItems.VIBRANITE)
+                        .define('B', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.VIBRANITE), has(ModItems.VIBRANITE))
+                        .group("vibranite")
+                        .save(output);
 
             }
         };

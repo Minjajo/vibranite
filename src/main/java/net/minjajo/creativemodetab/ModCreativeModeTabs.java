@@ -26,6 +26,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_VIBRANITE_BLOCK);
                         output.accept(ModBlocks.VIBRANITE_ORE);
                         output.accept(ModBlocks.VIBRANITE_DEEPSLATE_ORE);
+                        output.accept(ModItems.VIBRANITE_AXE);
+                        output.accept(ModItems.VIBRANITE_HOE);
+                        output.accept(ModItems.VIBRANITE_PICKAXE);
+                        output.accept(ModItems.VIBRANITE_SHOVEL);
+                        output.accept(ModItems.VIBRANITE_SWORD);
+                        output.accept(ModItems.VIBRANITE_SPEAR);
                     }))
                     .build());
 

@@ -2,11 +2,17 @@ package net.minjajo;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.biome.v1.BiomeModification;
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
+import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.resources.Identifier;
 
+import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minjajo.block.ModBlocks;
 import net.minjajo.creativemodetab.ModCreativeModeTabs;
 import net.minjajo.item.ModItems;
+import net.minjajo.world.ModWorldKeys;
+import net.minjajo.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,6 +34,14 @@ public class Vibranite implements ModInitializer {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
+
+		BiomeModifications.addFeature(
+				BiomeSelectors.foundInOverworld(),
+				GenerationStep.Decoration.UNDERGROUND_ORES,
+				ModWorldKeys.CUSTOM_ORE_PLACED
+		);
+
 	}
 
 	public static Identifier id(String path) {

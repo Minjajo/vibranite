@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Block;
 import net.minjajo.block.ModBlocks;
+import net.minjajo.world.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -28,6 +29,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         builder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.VIBRANITE_ORE.builtInRegistryHolder().key())
                 .add(ModBlocks.VIBRANITE_DEEPSLATE_ORE.builtInRegistryHolder().key());
+
+
+
+
 
     }
 }

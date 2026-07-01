@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "vibranite",
+  "key": {
+    "A": "vibranite:vibranite",
+    "B": "minecraft:stick"
+  },
+  "pattern": [
+    "AA",
+    "AB",
+    " B"
+  ],
+  "result": {
+    "id": "vibranite:vibranite_axe"
+  }
+}
