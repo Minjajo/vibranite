@@ -6,6 +6,11 @@ A Minecraft mod build for Fabric. It adds a new type of ore, as well as new weap
 ## Try the mod yourself! (Will be updated with a Modrinth link once approved)    
 https://drive.google.com/file/d/19hm6rVjYRzW1DkiX0m-0hY3yyy22sHoc/view?usp=sharing
 
+<img width="1581" height="845" alt="image" src="https://github.com/user-attachments/assets/d646d854-6f12-4762-bac9-2900af276fc7" />
+
+
+
+
 ## How to install for Minecraft Java:
 Currently, the mod has not yet been verified on Modrinth, so it is not yet available on the Modrinth launcher.
 To install and try the mod yourself, 
