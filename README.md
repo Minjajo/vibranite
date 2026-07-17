@@ -1,4 +1,4 @@
-# vibranite Minecraft Mod
+# Vibranite Minecraft Mod
 
 ## About 
 A Minecraft mod build for Fabric. It adds a new type of ore, as well as new weapons, tools, and armor!
@@ -25,6 +25,16 @@ To install and try the mod yourself,
 4. navigate to your mods folder (can be accessed from the installations tab on the Minecraft launcher)
 5. paste the Fabric API and Vibranite Mod into your mods folder
 6. Run the Fabric 26.2 Installation!
+
+## Features 
+- New Vibranite crystal & unrefined Vibranite
+- New Vibranite crystal block, raw vibranite block, as well as vibranite ore and vibranite deepslate ore that spawn naturally
+- New Vibranite tools! (Pickaxes, axes, hoes shovels)
+- New Vibranite weapons (Swords & Spears)
+
+ 
+## Credits
+- Heavily used tutorials from KaupenJoe for datageneration, tools, as well as natural ore spawning
 
 
 
