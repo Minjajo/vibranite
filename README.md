@@ -3,10 +3,14 @@
 ## About 
 A Minecraft mod build for Fabric. It adds a new type of ore, as well as new weapons, tools, and armor!
 
+<img width="1581" height="845" alt="image" src="https://github.com/user-attachments/assets/d646d854-6f12-4762-bac9-2900af276fc7" />
+<img width="1073" height="547" alt="image" src="https://github.com/user-attachments/assets/f01e3b59-5b3d-428c-9c5a-a44485b4ff52" />
+
+
 ## Try the mod yourself! (Will be updated with a Modrinth link once approved)    
 https://drive.google.com/file/d/19hm6rVjYRzW1DkiX0m-0hY3yyy22sHoc/view?usp=sharing
 
-<img width="1581" height="845" alt="image" src="https://github.com/user-attachments/assets/d646d854-6f12-4762-bac9-2900af276fc7" />
+
 
 
 
