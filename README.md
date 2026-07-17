@@ -35,6 +35,8 @@ To install and try the mod yourself,
  
 ## Credits
 - Heavily used tutorials from KaupenJoe for datageneration, tools, as well as natural ore spawning
+- Textures were made by altering vanilla minecraft blocks/tools etc.
+- Armor textures are derived from KaupenJoe's 1.19.2 armor mod
 
 
 
